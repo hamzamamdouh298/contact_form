@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <small>Enter message and click button "Send"</small>
+    <div class="wrapper centered">
+        <form action="https://formsubmit.co/hamzamamdouh298@gmail.com" method="POST" >
+        <div class="side">
+                <h1>Contact us</h1>
+                <p>
+                    <textarea name="message" placeholder="Your message"></textarea>
+                </p>
+            </div>
+            <div class="side">
+                <p>
+                    <input type="text" name="name" placeholder="Your name">
+                </p>
+                <p>
+                    <input type="email" name="email" placeholder="Your email">
+                </p>
+                <p>
+                    <button type="submit" id="sendLetter">Send</button>
+                </p>
+            </div>
+        </form>
+        <div class="envelope front"></div>
+        <div class="envelope back"></div>
+    </div>
+    <p class="result-message centered">Thank you for your message</p>
+
+    <!-- Link to the JavaScript file -->
+    <script src="cc.js"></script>
+</body>
+</html>
